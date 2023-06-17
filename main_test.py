@@ -14,7 +14,7 @@ def test_main_1():
 
     main.main()
     sys.stdout = sys.__stdout__
-    print('Captured ', captureOut.getvalue())
+    print('Captured', captureOut.getvalue())
     lines = captureOut.getvalue().split('\n')
     print(lines)
     for i in range(len(lines)):
